@@ -13,9 +13,6 @@ from typing import Any, List, Optional
 st.set_page_config(page_title="헬스 트레이너", page_icon="🧊")
 st.title("🧊 헬스 트레이너")
 
-st.session_state["messages"] = []
-st.session_state["store"] = dict()
-
 
 # Initialize session state
 if "messages" not in st.session_state:
